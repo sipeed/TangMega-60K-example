@@ -1,0 +1,15 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+    <FileList>
+        <File path="src/WS2812.v" type="file.verilog" enable="1"/>
+        <File path="src/divide.v" type="file.verilog" enable="1"/>
+        <File path="src/hsv2rgb.v" type="file.verilog" enable="1"/>
+        <File path="src/multiply.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/ws2812.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
