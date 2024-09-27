@@ -13,14 +13,15 @@ This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/har
 ## Directory structure
 
 ```
-| -- docs  
-|    |`-- images                  --> picture resources  
+| -- docs                       --> manuals and documentation   
+|    |`-- images                --> picture resources  
 | -- cam2dvi 
-|    |	`-- ws2812.fs.7z          --> prbuild bitstream(zipped)                       
-|    |	`-- ws2812.gprj           --> demo project
-|    |	`-- ws2812.gprj.user      --> project conf.
-|    |-- src                      --> project sources 
-|    |-- impl                     --> project config & implementation 
+|    |-- src                    --> project sources 
+|    |-- impl                   --> project config & implementation 
+|    |
+|    |`-- ws2812.fs.7z          --> prbuild bitstream(zipped)                       
+|    |`-- ws2812.gprj           --> demo project
+|    |`-- ws2812.gprj.user      --> project conf.
 
 ```
 
