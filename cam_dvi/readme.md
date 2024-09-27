@@ -13,7 +13,7 @@ This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/har
 ## Directory structure
 
 ```
-| -- docs  
+| -- docs                         --> manuals and documentation
 |    |`-- images				  --> picture resources  
 | -- cam2dvi 
 |    |	`-- cam2dvi.fs.zst		  --> prbuild bitstream(zipped)                       
