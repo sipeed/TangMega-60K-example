@@ -14,22 +14,30 @@ This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/har
 
 ```
 | -- docs  
-|    |`-- images				  --> picture resources  
+|    |`-- images                  --> picture resources  
 | -- cam2dvi 
-|    |	`-- ws2812.fs.7zt		  --> prbuild bitstream(zipped)                       
-|    |	`-- ws2812.gprj		      --> demo project
-|    |	`-- ws2812.gprj.user	  --> project conf.
+|    |	`-- ws2812.fs.7z          --> prbuild bitstream(zipped)                       
+|    |	`-- ws2812.gprj           --> demo project
+|    |	`-- ws2812.gprj.user      --> project conf.
 |    |-- src                      --> project sources 
 |    |-- impl                     --> project config & implementation 
 
 ```
 
 ## Getting start
+
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10.01
 - **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
-- Sipeed [Tang MEGA 138K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k.html)
+- Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)
 - USB-C date cable, use to connect the board to  PC  
+
+## Attention
+
+The VCCX should be set to 1.8V due to hardware design of **Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)**
+In GOWIN IDE, this configuration item is located in the **project(menu)-Configuration-Place & Route-Voltage-VCCX**
+
+<img src="../.assets/images/set_vccx.png" width=400>
 
 ## How to use
 

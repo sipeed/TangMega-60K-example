@@ -25,12 +25,20 @@ This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/har
 ```
 
 ## Getting start
+
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10.01
 - **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
 - Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)
 - An OV5640 Sensor, a HDMI/DVI Monitor and a HDMI cable
 - USB-C date cable, use to connect the board to PC.  
+
+## Attention
+
+The VCCX should be set to 1.8V due to hardware design of **Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)**
+In GOWIN IDE, this configuration item is located in the **project(menu)-Configuration-Place & Route-Voltage-VCCX**
+
+<img src="../.assets/images/set_vccx.png" width=400>
 
 ## How to use
 
