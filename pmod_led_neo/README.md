@@ -1,4 +1,4 @@
-# pmod_led_demo - a basic led test demo for Sipeed Tang MEGA 60K FPGA Boards
+# pmod_led_demo - a basic led & key test demo for Sipeed Tang MEGA 60K FPGA Boards
 
 This project is a basic function test on GOWIN GW5AT-60K, it base on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), and uses the **left side** PMOD interfaces on the edge of board for IO control LED on/off testing.
 
