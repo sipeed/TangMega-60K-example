@@ -1,0 +1,80 @@
+//Copyright (C)2014-2024 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.9.01 (64-bit)
+//Part Number: GW5AST-LV138PG484AC2/I1
+//Device: GW5AST-138
+//Device Version: B
+//Created Time: Mon 03 11 11:24:27 2024
+
+IO_LOC "sys_clk" V22;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+//Y14 is a testpoint located on the bottom side of the dock board.
+IO_LOC "osc_clk" Y14;
+IO_PORT "osc_clk" IO_TYPE=LVCMOS15 PULL_MODE=DOWN BANK_VCCIO=1.5;
+
+//========================== MS5351 ==============================
+
+//For dock board version V31005 or later：
+//IO_LOC "ms5351_clk" V13;
+//IO_PORT "ms5351_clk" IO_TYPE=LVCMOS15 PULL_MODE=NONE BANK_VCCIO=1.5;
+
+//For dock board version before V31005 or earlier
+IO_LOC "ms5351_clk" AB12;
+IO_PORT "ms5351_clk" IO_TYPE=LVCMOS15 PULL_MODE=NONE BANK_VCCIO=1.5; 
+//================================================================
+
+//Keys must be internal pull-up, there aren't any pull-up on the dock boaard
+IO_LOC "rst_n" Y12;
+IO_PORT "rst_n" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5; 
+IO_LOC "key1" AB13;
+IO_PORT "key1" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5; 
+IO_LOC "key0" AA13;
+IO_PORT "key0" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5; 
+
+//PMOD near the left edge of the dock board, 
+IO_LOC "led_o[0]" P19;
+IO_PORT "led_o[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[1]" R19;
+IO_PORT "led_o[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[2]" T21;
+IO_PORT "led_o[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[3]" U21;
+IO_PORT "led_o[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[4]" P16;
+IO_PORT "led_o[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[5]" R17;
+IO_PORT "led_o[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[6]" R18;
+IO_PORT "led_o[6]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "led_o[7]" T18;
+IO_PORT "led_o[7]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+//PMOD near the hdmi connector of the dock board, 
+//IO_LOC "led_o[0]" Y21;
+//IO_PORT "led_o[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[1]" Y22;
+//IO_PORT "led_o[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[2]" AB21;
+//IO_PORT "led_o[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[3]" AB22;
+//IO_PORT "led_o[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[4]" AA20;
+//IO_PORT "led_o[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[5]" AA21;
+//IO_PORT "led_o[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[6]" AA19;
+//IO_PORT "led_o[6]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+//IO_LOC "led_o[7]" AB20;
+//IO_PORT "led_o[7]" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+
+
+
+
+
+
+
+
+
