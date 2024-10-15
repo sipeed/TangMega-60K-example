@@ -62,7 +62,7 @@ Here are the details for LEDs:(LED0 is on the far right)
 | LED3      |  cmos_vs_cnt                    | Blink             |
 | LED4      |  cmos_i2c_done                  | ON                |
 
-1 button **(S0)** use to reset the transmission.  
+1 button **(KEY.0)** use to reset the transmission.  
 
 ## Development
 If you want to modify the video resolution output, Please refer to the comments in the top file.
