@@ -1,0 +1,227 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_133M" trig_type="0" storage_depth="8192" window_num="1" capture_amount="8192" implementation="0" trigger_pos="32" module_name="top" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">sdram_init_fin</Signal>
+            <Bus capture_enable="true" name="cmd_len[9:0]">
+                <Signal>cmd_len[9]</Signal>
+                <Signal>cmd_len[8]</Signal>
+                <Signal>cmd_len[7]</Signal>
+                <Signal>cmd_len[6]</Signal>
+                <Signal>cmd_len[5]</Signal>
+                <Signal>cmd_len[4]</Signal>
+                <Signal>cmd_len[3]</Signal>
+                <Signal>cmd_len[2]</Signal>
+                <Signal>cmd_len[1]</Signal>
+                <Signal>cmd_len[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="cmd_adr[24:0]">
+                <Signal>cmd_adr[24]</Signal>
+                <Signal>cmd_adr[23]</Signal>
+                <Signal>cmd_adr[22]</Signal>
+                <Signal>cmd_adr[21]</Signal>
+                <Signal>cmd_adr[20]</Signal>
+                <Signal>cmd_adr[19]</Signal>
+                <Signal>cmd_adr[18]</Signal>
+                <Signal>cmd_adr[17]</Signal>
+                <Signal>cmd_adr[16]</Signal>
+                <Signal>cmd_adr[15]</Signal>
+                <Signal>cmd_adr[14]</Signal>
+                <Signal>cmd_adr[13]</Signal>
+                <Signal>cmd_adr[12]</Signal>
+                <Signal>cmd_adr[11]</Signal>
+                <Signal>cmd_adr[10]</Signal>
+                <Signal>cmd_adr[9]</Signal>
+                <Signal>cmd_adr[8]</Signal>
+                <Signal>cmd_adr[7]</Signal>
+                <Signal>cmd_adr[6]</Signal>
+                <Signal>cmd_adr[5]</Signal>
+                <Signal>cmd_adr[4]</Signal>
+                <Signal>cmd_adr[3]</Signal>
+                <Signal>cmd_adr[2]</Signal>
+                <Signal>cmd_adr[1]</Signal>
+                <Signal>cmd_adr[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">cmd_en</Signal>
+            <Signal capture_enable="true">cmd_wr_rd</Signal>
+            <Signal capture_enable="true">cmd_av</Signal>
+            <Bus capture_enable="true" name="wr_remain_space[9:0]">
+                <Signal>wr_remain_space[9]</Signal>
+                <Signal>wr_remain_space[8]</Signal>
+                <Signal>wr_remain_space[7]</Signal>
+                <Signal>wr_remain_space[6]</Signal>
+                <Signal>wr_remain_space[5]</Signal>
+                <Signal>wr_remain_space[4]</Signal>
+                <Signal>wr_remain_space[3]</Signal>
+                <Signal>wr_remain_space[2]</Signal>
+                <Signal>wr_remain_space[1]</Signal>
+                <Signal>wr_remain_space[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="wr_data[15:0]">
+                <Signal>wr_data[15]</Signal>
+                <Signal>wr_data[14]</Signal>
+                <Signal>wr_data[13]</Signal>
+                <Signal>wr_data[12]</Signal>
+                <Signal>wr_data[11]</Signal>
+                <Signal>wr_data[10]</Signal>
+                <Signal>wr_data[9]</Signal>
+                <Signal>wr_data[8]</Signal>
+                <Signal>wr_data[7]</Signal>
+                <Signal>wr_data[6]</Signal>
+                <Signal>wr_data[5]</Signal>
+                <Signal>wr_data[4]</Signal>
+                <Signal>wr_data[3]</Signal>
+                <Signal>wr_data[2]</Signal>
+                <Signal>wr_data[1]</Signal>
+                <Signal>wr_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="wr_mask[1:0]">
+                <Signal>wr_mask[1]</Signal>
+                <Signal>wr_mask[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">wr_en</Signal>
+            <Bus capture_enable="true" name="rd_remain_space[9:0]">
+                <Signal>rd_remain_space[9]</Signal>
+                <Signal>rd_remain_space[8]</Signal>
+                <Signal>rd_remain_space[7]</Signal>
+                <Signal>rd_remain_space[6]</Signal>
+                <Signal>rd_remain_space[5]</Signal>
+                <Signal>rd_remain_space[4]</Signal>
+                <Signal>rd_remain_space[3]</Signal>
+                <Signal>rd_remain_space[2]</Signal>
+                <Signal>rd_remain_space[1]</Signal>
+                <Signal>rd_remain_space[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="rd_data[15:0]">
+                <Signal>rd_data[15]</Signal>
+                <Signal>rd_data[14]</Signal>
+                <Signal>rd_data[13]</Signal>
+                <Signal>rd_data[12]</Signal>
+                <Signal>rd_data[11]</Signal>
+                <Signal>rd_data[10]</Signal>
+                <Signal>rd_data[9]</Signal>
+                <Signal>rd_data[8]</Signal>
+                <Signal>rd_data[7]</Signal>
+                <Signal>rd_data[6]</Signal>
+                <Signal>rd_data[5]</Signal>
+                <Signal>rd_data[4]</Signal>
+                <Signal>rd_data[3]</Signal>
+                <Signal>rd_data[2]</Signal>
+                <Signal>rd_data[1]</Signal>
+                <Signal>rd_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">rd_av</Signal>
+            <Signal capture_enable="true">rd_en</Signal>
+            <Bus capture_enable="true" name="sdram_adr[12:0]">
+                <Signal>sdram_adr[12]</Signal>
+                <Signal>sdram_adr[11]</Signal>
+                <Signal>sdram_adr[10]</Signal>
+                <Signal>sdram_adr[9]</Signal>
+                <Signal>sdram_adr[8]</Signal>
+                <Signal>sdram_adr[7]</Signal>
+                <Signal>sdram_adr[6]</Signal>
+                <Signal>sdram_adr[5]</Signal>
+                <Signal>sdram_adr[4]</Signal>
+                <Signal>sdram_adr[3]</Signal>
+                <Signal>sdram_adr[2]</Signal>
+                <Signal>sdram_adr[1]</Signal>
+                <Signal>sdram_adr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="sdram_ba[1:0]">
+                <Signal>sdram_ba[1]</Signal>
+                <Signal>sdram_ba[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="sdram_dqm[1:0]">
+                <Signal>sdram_dqm[1]</Signal>
+                <Signal>sdram_dqm[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">sdram_cs</Signal>
+            <Signal capture_enable="true">sdram_ras</Signal>
+            <Signal capture_enable="true">sdram_cas</Signal>
+            <Signal capture_enable="true">sdram_we</Signal>
+            <Bus capture_enable="true" name="SDRAM/dq_wr[15:0]">
+                <Signal>SDRAM/dq_wr[15]</Signal>
+                <Signal>SDRAM/dq_wr[14]</Signal>
+                <Signal>SDRAM/dq_wr[13]</Signal>
+                <Signal>SDRAM/dq_wr[12]</Signal>
+                <Signal>SDRAM/dq_wr[11]</Signal>
+                <Signal>SDRAM/dq_wr[10]</Signal>
+                <Signal>SDRAM/dq_wr[9]</Signal>
+                <Signal>SDRAM/dq_wr[8]</Signal>
+                <Signal>SDRAM/dq_wr[7]</Signal>
+                <Signal>SDRAM/dq_wr[6]</Signal>
+                <Signal>SDRAM/dq_wr[5]</Signal>
+                <Signal>SDRAM/dq_wr[4]</Signal>
+                <Signal>SDRAM/dq_wr[3]</Signal>
+                <Signal>SDRAM/dq_wr[2]</Signal>
+                <Signal>SDRAM/dq_wr[1]</Signal>
+                <Signal>SDRAM/dq_wr[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">SDRAM/dq_wr_en</Signal>
+            <Bus capture_enable="true" name="SDRAM/dq_rd_buf[15:0]">
+                <Signal>SDRAM/dq_rd_buf[15]</Signal>
+                <Signal>SDRAM/dq_rd_buf[14]</Signal>
+                <Signal>SDRAM/dq_rd_buf[13]</Signal>
+                <Signal>SDRAM/dq_rd_buf[12]</Signal>
+                <Signal>SDRAM/dq_rd_buf[11]</Signal>
+                <Signal>SDRAM/dq_rd_buf[10]</Signal>
+                <Signal>SDRAM/dq_rd_buf[9]</Signal>
+                <Signal>SDRAM/dq_rd_buf[8]</Signal>
+                <Signal>SDRAM/dq_rd_buf[7]</Signal>
+                <Signal>SDRAM/dq_rd_buf[6]</Signal>
+                <Signal>SDRAM/dq_rd_buf[5]</Signal>
+                <Signal>SDRAM/dq_rd_buf[4]</Signal>
+                <Signal>SDRAM/dq_rd_buf[3]</Signal>
+                <Signal>SDRAM/dq_rd_buf[2]</Signal>
+                <Signal>SDRAM/dq_rd_buf[1]</Signal>
+                <Signal>SDRAM/dq_rd_buf[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>sdram_init_fin</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="R" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1011010000001110</GAO_ID>
+</GAO_CONFIG>

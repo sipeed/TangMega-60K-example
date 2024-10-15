@@ -1,0 +1,46 @@
+[
+ {
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top_module",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/top.v",
+    "InstLine" : 31,
+    "InstName" : "sdram_inst",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_top.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "sdram_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/print.svh",
+      "InstLine" : 105,
+      "InstName" : "tx",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/uart_tx_V2.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "uart_tx_V2"
+     },
+     {
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_top.sv",
+      "InstLine" : 207,
+      "InstName" : "SDRAM_PLL",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/gowin_pll/SDRAM_PLL.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "SDRAM_PLL"
+     },
+     {
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_top.sv",
+      "InstLine" : 260,
+      "InstName" : "SDRAM",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_ctrl.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "SDRAM_CTRL"
+     }
+    ]
+   }
+  ]
+ }
+]
