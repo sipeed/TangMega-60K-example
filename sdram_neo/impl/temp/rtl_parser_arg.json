@@ -2,15 +2,15 @@
  "Device" : "GW5AT-60B",
  "Files" : [
   {
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/gowin_pll/SDRAM_PLL.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_ctrl.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/uart_tx_V2.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/gowin_pll/SDRAM_PLL.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_top.sv",
    "Type" : "verilog"
   },
   {
@@ -18,7 +18,7 @@
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/sdram_top.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/src/uart_tx_V2.v",
    "Type" : "verilog"
   }
  ],
@@ -27,7 +27,7 @@
  ],
  "LoopLimit" : 2000,
  "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/sdram_neo/impl/temp/rtl_parser.result",
- "Top" : "top",
+ "Top" : "top_module",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
 }
