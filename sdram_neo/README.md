@@ -1,3 +1,5 @@
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 # sdram_neo_demo - a new sdram test demo for Sipeed Tang MEGA 60K FPGA Boards
 
 This project is a basic function test on GOWIN GW5AT-60K, it base on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), it uses a [TANG_SDRAM_V1.3](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html#TANG_SDRAM) and a [PMOD-LEDx8](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html#PMOD_LEDx8) to run a sdram write & read test.

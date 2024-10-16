@@ -1,3 +1,5 @@
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 # CH569_HSPI_USB
 
 - Project source can be found in [HERE](https://github.com/sipeed/TangMega-138K-example/tree/main/ch569_hspi2cdc/CH569_HSPI_USB)
