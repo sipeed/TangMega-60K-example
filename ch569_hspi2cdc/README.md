@@ -17,7 +17,7 @@ You can also use MounRiver Studio import this project and build by yourself.
 
 Gowin Programmer is used to program `CH569_HSPI_FPGA/impl/pnr/CH569_HSPI_FPGA.fs` to your 60k.
 
-The botton `S1` on core board plays a role on reset.
+The botton `S1` on SOM board plays a role on reset.
 
 NOTE: must boot FPGA first to avoid affect `HSPI` on CH569.
 
