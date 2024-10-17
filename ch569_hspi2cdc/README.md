@@ -6,10 +6,10 @@
 - WCHISPStudio is used to flash `CH569_HSPI_USB/obj/CH569_HSPI_USB.hex` to your CH569 onboard.
 
 
-NOTE: must change these settings below
+NOTE: **MUST** change these settings below
 
-- Chip Memory Allocation: RAMX 96KB + ROM 32KB
-- Download Cfg Pin: PA13
+- Chip Memory Allocation: `RAMX 96KB` + `ROM 32KB`
+- Download CFG Pin: `PA13`
 
 You can also use MounRiver Studio import this project and build by yourself.
 
@@ -17,7 +17,7 @@ You can also use MounRiver Studio import this project and build by yourself.
 
 Gowin Programmer is used to program `CH569_HSPI_FPGA/impl/pnr/CH569_HSPI_FPGA.fs` to your 60k.
 
-The botton `S1` on SOM board plays a role on reset.
+The botton `S1` on SOM board is used to reset.
 
 NOTE: must boot FPGA first to avoid affect `HSPI` on CH569.
 
