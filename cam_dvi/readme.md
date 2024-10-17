@@ -53,7 +53,7 @@ Here are quick instructions for the more experienced,
 
 ## LEDs & button
 
-This demo uses 4 LEDs to indicate status
+This demo uses 5 LEDs to indicate status
 You need a PMOD_LED module to get the indicator LEDs, just plug the module into the outer connector.   
 Here are the details for LEDs:(LED0 is on the far right)
 | LEDs      | Description                     | Expected situation|
