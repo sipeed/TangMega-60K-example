@@ -4,7 +4,7 @@
 
 This project is a basic function test on GOWIN GW5AT-60K, it base on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), it uses a [TANG_SDRAM_V1.3](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html#TANG_SDRAM) and a [PMOD-LEDx8](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html#PMOD_LEDx8) to run a sdram write & read test.
 
-Main features
+## Main features
 
 - Provied a specialized SDRAM controller, total available SDRAM size is 64MB or 512Mb
 - Up to 133MHz SDRAM & Operating clock in default
