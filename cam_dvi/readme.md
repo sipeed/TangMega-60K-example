@@ -38,7 +38,7 @@ Please confirm that you have the following conditions:
 ## Attention
 
 The VCCX should be set to 1.8V due to hardware design of **Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)**
-In GOWIN IDE, this configuration item is located in the **project(menu)-Configuration-Place & Route-Voltage-VCCX**
+In GOWIN IDE, this configuration item is located in the ***project(menu)-Configuration-Place & Route-Voltage-VCCX***
 
 <img src="../.assets/images/set_vccx.png" width=400>
 
