@@ -10,7 +10,7 @@ Main features,
 - 720P@60/30Hz RGB565 video capture via DVP Camera OV5640.
 - Use on board DDR3 memory as framebuffer .
 
-This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/10** or **GW5AT-LV60PG484AES**.   
+This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/l0** or **GW5AT-LV60PG484AES**.   
 
 ## Directory structure
 

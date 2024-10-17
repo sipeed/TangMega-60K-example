@@ -14,8 +14,8 @@ Main features
 image TBD
 <img src="docs/images/NEO_PMOD_LED.webp" width=400> 
 
-This demo is forked from the pcie demo of Sipeed [Tang MEGA 138K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k.html), which mainchip is **GW5AST-LV138PGG464AC1/10** or **GW5AST-LV138PG484AES**.  
-And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/10** or **GW5AT-LV60PG484AES**. 
+This demo is forked from the pcie demo of Sipeed [Tang MEGA 138K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k.html), which mainchip is **GW5AST-LV138PGG464AC1/l0** or **GW5AST-LV138PG484AES**.  
+And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/l0** or **GW5AT-LV60PG484AES**. 
 
 ## Directory structure
 

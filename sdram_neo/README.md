@@ -12,7 +12,7 @@ Main features
 - Maybe also simple a UART controller
 
 This demo is forked form [LicheeTang25k_SDRAM](https://github.com/ZiyangYE/LicheeTang25k_SDRAM) by @ZiyangYE, and here is the orignal [README](https://github.com/ZiyangYE/LicheeTang25k_SDRAM/blob/133M/README.md).
-And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/10** or **GW5AT-LV60PG484AES**. 
+And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/l0** or **GW5AT-LV60PG484AES**. 
 
 ## Directory structure
 
@@ -31,12 +31,21 @@ And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/
 
 ```
 ## Getting start
+
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10
 - **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
 - You can get a windows GOWIN Programmer version **1.9.10.03** Alpha for [HERE](https://api.dl.sipeed.com/shareURL/TANG/programmer)
 
+## Attention
+
+The VCCX should be set to 1.8V due to hardware design of **Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)**
+In GOWIN IDE, this configuration item is located in the **project(menu)-Configuration-Place & Route-Voltage-VCCX**
+
+<img src="../.assets/images/set_vccx.png" width=400>
+
 ## How to use
+
 - Assemble a [PMOD-LEDx8](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html#PMOD_LEDx8) module installed on the **LEFT SIDE** PMOD connector on the dock board, then install a [TANG_SDRAM_V1.3](https://wiki.sipeed.com/hardware/en/tang/tang-PMOD/FPGA_PMOD.html#TANG_SDRAM) module on the **BOTTOM SIDE** 2x20P connector on the dock board.
 
 image TBD
@@ -48,6 +57,7 @@ image TBD
 - You can also check the UART output the get the test result.
 
 ### UART Output(ehen test is passed)
+
 ```text
 Write aaaa ffff 0000 to ram0. 
 Write 5555 0000 ffff to ram1.
@@ -59,6 +69,7 @@ Read from ram1:
 ```
 
 ## LEDs & button
+
 This demo uses a LED to indicate status, by default it is T18.
 You need a PMOD_LED module to get the indicator LEDs, just plug the module into the **LEFT** connector near the board edge.  
 1 button **(KEY.2)** use to trigger the SDRAM TEST.  
