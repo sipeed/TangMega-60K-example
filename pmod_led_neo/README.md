@@ -52,9 +52,12 @@ image TBD
 - Press button KEY.1 or key0 to change the blink status of LEDs.
 
 ## LEDs & button
-This demo uses 8 LEDs to indicate status
+This project uses 8 LEDs to achieve the effect of running lights.
 You need a PMOD_LED module to get the indicator LEDs, just plug the module into the **LEFT** connector near the board edge.   
-Here are the details for buttons:(KEY.2 is on the far left)
+
+Here are the details for buttons: 
+(KEY.2 is on the far left)
+
 | buttons   | Description                     | Expected situation|
 | ----------| --------------------------------|-------------------|
 | KEY.2     |  Pressed the reset key(KEY.2)   | ALL LEDs OFF      |
