@@ -30,10 +30,10 @@ This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/har
 
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10.01
-- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
-- Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)
+- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues with **onboard debugger**.
+~~ - You can get a windows GOWIN Programmer version **1.9.10.03** Alpha for [HERE](https://api.dl.sipeed.com/shareURL/TANG/programmer) ~~ GOWIN has released an update version **1.9.10.03**.
 - An OV5640 Sensor, a HDMI/DVI Monitor and a HDMI cable
-- USB-C date cable, use to connect the board to PC.  
+- USB-C date cable, use to connect the board to PC  
 
 ## Attention
 
@@ -41,6 +41,22 @@ The VCCX should be set to 1.8V due to hardware design of **Sipeed [Tang MEGA 60K
 In GOWIN IDE, this configuration item is located in the ***project(menu)-Configuration-Place & Route-Voltage-VCCX***
 
 <img src="../.assets/images/set_vccx.png" width=400>
+
+## Important 
+
+⚠️ **Beware of HIGH temperatures**⚠️ :
+
+The OV5640 will generate a lot of heat when outputting 720P/60Hz RGB565 images. Please pay attention to the heat dissipation of the sensor. Avoid direct contact with the heated sensor.
+
+This demo has disabled the internal 1V5 regulator of the OV5640, but it still generates a lot of heat. A lower VDDIO(even 1V8) can alleviate the heat, but if you don't add a heat sink to the sensor, the sensor will eventually overheat.
+
+Overheating may cause the OV5640 to output abnormal images or even burn out the OV5640.
+
+Lowering the output frame rate, resolution, and disabling the internal ISP to let the OV5640 output RAW can greatly reduce heat.
+
+Therefore, this demo is not recommended to be used for a long time without cooling the sensor. If anyone knows how to solve this problem, please submit an issue.Your help is important to everyone.
+
+***
 
 ## How to use
 
