@@ -2,83 +2,83 @@
  "Device" : "GW5AT-60B",
  "Files" : [
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/cmos_8_16bit.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/cmos_8_16bit.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/ddr3_memory_interface/DDR3MI_400M.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/ddr3_memory_interface/DDR3MI_400M.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/dvi_tx/DVI_TX_Top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/dvi_tx/DVI_TX_Top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/fifo_top/video_fifo.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/fifo_top/video_fifo.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/gowin_pll/DDR_PLL_60K.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/gowin_pll/DDR_PLL_60K.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/gowin_pll/TMDS_PLL_60HZ.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/gowin_pll/TMDS_PLL_60HZ.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_config.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_config.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_bit_ctrl.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_bit_ctrl.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_byte_ctrl.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_byte_ctrl.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_defines.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_defines.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/i2c_master_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/timescale.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/i2c_master/timescale.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/lut_ov5640_rgb565_1280_720.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/lut_ov5640_rgb565_1280_720.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/pll_mDRP_intf.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/pll_mDRP_intf.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/syn_gen.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/syn_gen.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/testpattern.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/testpattern.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/vga_timing.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/vga_timing.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/src/video_timing_check.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/src/video_timing_check.v",
    "Type" : "verilog"
   }
  ],
@@ -86,7 +86,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/Think/Documents/GitHub/TangMega-60K-example/cam_dvi/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/cam_dvi/impl/temp/rtl_parser.result",
  "Top" : "top",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
