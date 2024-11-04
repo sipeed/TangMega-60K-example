@@ -8,7 +8,7 @@ Main features,
 - Make WS2812 cycle color change.
 - IP-less design, easy to port to other FPGA.
 
-This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60GG464AC1/l0** or **GW5AT-LV60PG484AES**.   
+This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60GG484AC1/l0** or **GW5AT-LV60PG484AES**.   
 
 ## Directory structure
 

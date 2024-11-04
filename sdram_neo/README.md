@@ -12,7 +12,7 @@ This project is a basic function test on GOWIN GW5AT-60K, it base on Sipeed [Tan
 - Maybe also simple a UART controller
 
 This demo is forked form [LicheeTang25k_SDRAM](https://github.com/ZiyangYE/LicheeTang25k_SDRAM) by @ZiyangYE, and here is the orignal [README](https://github.com/ZiyangYE/LicheeTang25k_SDRAM/blob/133M/README.md).
-And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG464AC1/l0** or **GW5AT-LV60PG484AES**. 
+And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html), which mainchip is **GW5AT-LV60PGG484AC1/l0** or **GW5AT-LV60PG484AES**. 
 
 ## Directory structure
 
