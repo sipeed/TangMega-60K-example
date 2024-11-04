@@ -11,7 +11,6 @@ Main features
 - 3 different clock source inputs can be selected: Internal_OSC, Onboard_OSC or MS5351
 - 3 different keys to switch LEDs blink status
 
-image TBD
 <img src="docs/images/NEO_PMOD_LED.webp" width=400> 
 
 This demo is forked from the pcie demo of Sipeed [Tang MEGA 138K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k.html), which mainchip is **GW5AST-LV138PGG464AC1/l0** or **GW5AST-LV138PG484AES**.  
