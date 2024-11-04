@@ -36,7 +36,7 @@ And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/
 ## Getting start
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10
-- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
+- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues with **onboard debugger**.
 - You can get a windows GOWIN Programmer version **1.9.10.03** Alpha for [HERE](https://api.dl.sipeed.com/shareURL/TANG/programmer)
 - You should set the *CPU as regular IO* in **IDE-Project-Configuration-Place & route-Dual Purpose Pin**, otherwise you will get a **ERROR** from IDE like *The constrained location is useless in current package* when running placement.
 

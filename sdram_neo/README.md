@@ -34,7 +34,7 @@ And it now is tested on Sipeed [Tang MEGA 60k](https://wiki.sipeed.com/hardware/
 
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10
-- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
+- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues with **onboard debugger**.
 - You can get a windows GOWIN Programmer version **1.9.10.03** Alpha for [HERE](https://api.dl.sipeed.com/shareURL/TANG/programmer)
 
 ## Attention

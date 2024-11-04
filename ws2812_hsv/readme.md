@@ -29,9 +29,9 @@ This demo now is only test on Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/har
 
 Please confirm that you have the following conditions:
 - GOWIN IDE Version ≥ 1.9.10.01
-- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
+- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues many issues with **onboard debugger**(BL616).
 - Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-60k/mega-60k.html)
-- USB-C date cable, use to connect the board to  PC  
+- USB-C date cable, use to connect the board to your PC.
 
 ## Attention
 
