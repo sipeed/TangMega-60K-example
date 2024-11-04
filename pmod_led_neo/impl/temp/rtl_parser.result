@@ -1,17 +1,17 @@
 [
  {
-  "InstFile" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/src/top.v",
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/src/top.v",
   "InstLine" : 10,
   "InstName" : "pmod_led",
-  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/src/top.v",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/src/top.v",
   "ModuleLine" : 10,
   "ModuleName" : "pmod_led",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/src/top.v",
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/src/top.v",
     "InstLine" : 22,
     "InstName" : "internal_osc_inst",
-    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/src/gowin_osc/gowin_osc.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/src/gowin_osc/gowin_osc.v",
     "ModuleLine" : 10,
     "ModuleName" : "Gowin_OSC"
    }

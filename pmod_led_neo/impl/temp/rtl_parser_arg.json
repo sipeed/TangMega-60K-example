@@ -2,11 +2,11 @@
  "Device" : "GW5AT-60B",
  "Files" : [
   {
-   "Path" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/src/gowin_osc/gowin_osc.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/src/gowin_osc/gowin_osc.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/src/top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/src/top.v",
    "Type" : "verilog"
   }
  ],
@@ -14,7 +14,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/Think/OneDrive/Documents/FPGA_Project/Gowin/138K-PG484/TangMega-138K-example/pmod_led/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pmod_led_neo/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
