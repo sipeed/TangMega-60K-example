@@ -4,13 +4,13 @@
     <Version>beta</Version>
     <Device id="GW5AT-60B" package="PBGA484A" speed="1" partNumber="GW5AT-LV60PG484AC1/I0"/>
     <FileList>
-        <File path="C:/Gowin/Gowin_V1.9.11_x64/IDE/ipcore/SERDES_IP/IPlib/PCIE/data/pcie_controller_encrypt.v" type="verilog"/>
-        <File path="C:/Gowin/Gowin_V1.9.11_x64/IDE/ipcore/SERDES_IP/IPlib/PCIE/data/pcie_controller_top.v" type="verilog"/>
+        <File path="D:/Applications/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/SERDES_IP/IPlib/PCIE/data/pcie_controller_encrypt.v" type="verilog"/>
+        <File path="D:/Applications/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/SERDES_IP/IPlib/PCIE/data/pcie_controller_top.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="1"/>
-        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.11_x64/IDE/ipcore/SERDES_IP/IPlib/PCIE/data"/>
-        <Option type="include_path" value="C:/Users/12161/OneDrive/Desktop/Files/Hoshi/TangMega-138K-example-main/pcie_dma_demo_60/src/serdes/pcie_controller_X1/temp/pcie"/>
+        <Option type="include_path" value="D:/Applications/Gowin/Gowin_V1.9.11.01_x64/IDE/ipcore/SERDES_IP/IPlib/PCIE/data"/>
+        <Option type="include_path" value="C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pcie_dma_demo/src/serdes/pcie_controller_X1/temp/pcie"/>
         <Option type="output_file" value="pcie_controller_X1.vg"/>
         <Option type="output_template" value="pcie_controller_X1_tmp.v"/>
         <Option type="ram_balance" value="1"/>

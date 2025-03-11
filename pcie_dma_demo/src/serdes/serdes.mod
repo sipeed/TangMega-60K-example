@@ -1,5 +1,5 @@
 -type SERDES
--path C:/Users/12161/OneDrive/Desktop/Files/Hoshi/TangMega-138K-example-main/pcie_dma_demo_60/src/serdes/
+-path C:/Users/Think/OneDrive/Documents/GitHub/TangMega-60K-example/pcie_dma_demo/src/serdes/
 -file_type vlg
 -file_name serdes_X1
 -mod_name SerDes_Top
