@@ -2,6 +2,10 @@
 
 # CH569_HSPI_USB
 
+> All **Sipeed [Tang MEGA 60K](https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k.html)** boards have been pre-burned with this firmware before leaving the factory.
+> 
+> ⚠ Unless you need secondary development or verification of the burning process, please do not try to burn this firmware at will.
+
 - Project source can be found in [HERE](https://github.com/sipeed/TangMega-138K-example/tree/main/ch569_hspi2cdc/CH569_HSPI_USB)
 - WCHISPStudio is used to flash `CH569_HSPI_USB/obj/CH569_HSPI_USB.hex` to your CH569 onboard.
 
