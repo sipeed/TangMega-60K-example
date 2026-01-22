@@ -15,13 +15,13 @@ You can also use MounRiver Studio import this project and build by yourself.
 
 # CH569_HSPI_FPGA
 
-Gowin Programmer is used to program `CH569_HSPI_FPGA/impl/pnr/CH569_HSPI_FPGA.fs` to your 60k.
+Gowin Programmer is used to program `CH569_HSPI_FPGA_60K/impl/pnr/CH569_HSPI_FPGA.fs` to your 60k.
 
-The botton `S1` on SOM board is used to reset.
+Here is a pre-built bitstream in the root directory of the FPGA project, which is compressed and stored in 7z format called **`CH569_HSPI_FPGA.fs.7z`**. Just decompress it then burn it to your FPGA by **Gowin Programmer**.
 
-NOTE: must boot FPGA first to avoid affect `HSPI` on CH569.
+The botton `KEY.0` (AA13) on SOM board is used to reset. The **`AA13`** is in the same bank of DDR3 on the SOM, so it should be contrainsted to **`IO_TYPE=LVCMOS15`** **`PULL_MODE=UP`** **`BANK_VCCIO=1.5`** 
+
+NOTE: must boot FPGA first to avoid affect `HSPI` on CH569. To achieve this, press and hold the CH569 reset button during power-up your FPGA dock board.
 
 Please confirm that you have the following conditions:
-- GOWIN IDE Version ≥ 1.9.10
-- **DO NOT** use GOWIN Programmer version **1.9.10.02**, for this version contains many issues
-- You can get a windows GOWIN Programmer version **1.9.10.03** Alpha for [HERE](https://api.dl.sipeed.com/shareURL/TANG/programmer)
+- GOWIN IDE Version ≥ 1.9.11.03
