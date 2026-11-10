@@ -164,9 +164,10 @@ dtparam=pciex1_gen=3
 ```
 
 - Gen3 on the 60K: GOWIN IDE 1.9.12.04 unlocks the Gen3 option, but it has not
-  been tested yet, and the current 60K demo is Gen2. NextTang plans to test both
-  Gen2 and Gen3 on the 60K when the unit arrives; source: NextTang email,
-  2026-11-10.
+  been tested yet, and the current 60K demo is Gen2. Note that Gen3 on the 138K
+  trained but was not reliable over an overnight soak, so **Gen2 remains the
+  recommendation** for now. NextTang plans to test both Gen2 and Gen3 on the
+  60K when the unit arrives; source: NextTang email / issue #1.
 
 ## Test environment
 These environments have been verified and the demo can be used normally.
